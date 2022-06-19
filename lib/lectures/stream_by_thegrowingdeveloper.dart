@@ -7,11 +7,9 @@ class StreamByTheGrowingDeveloper extends StatelessWidget {
   late Stream myStream = streamController.stream.asBroadcastStream();
   late StreamSubscription mySub;
 
-  //int count = 0;
-
   Stream<int> getData() async* {
     for (int i = 0; i <= 100; i++) {
-      await Future.delayed(Duration(milliseconds: 50));
+      await Future.delayed(const Duration(milliseconds: 50));
       yield i;
     }
     throw "Completed";

@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:study_project/lectures/stream_by_filledstack.dart';
 import 'package:study_project/lectures/stream_by_thegrowingdeveloper.dart';
-
-import 'lectures/stream_test1.dart';
 
 void main() {
   runApp(const MyApp());
